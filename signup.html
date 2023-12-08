@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body bgcolor="grey">
+    x
+    <pre>
+    <form action=""><h1>                                             Sign Up</h1>
+        <fieldset>
+                                                                                    <label for="email">Email</label>
+                                                                                    <input type="email" required id="email" pattern="[a-z0-9_.]+@[a-z]+.[a-z]{2,}"><br><br>
+                                                                                    <label for="">First name</label>
+                                                                                    <input type="text" required Pattern="[A-Za-z]{2,20}"><br><br>
+                                                                                    <label for="">Last name</label>
+                                                                                    <input type="text" required pattern="[A-Za-z]{2,10}"><br><br>
+                                                                                    <label for="">Phone </label>
+                                                                                    <input type="text" required pattern="[6-9]{1}[0-9]{9}"><br><br>
+                                                                                    <label for="gender">Gender</label>
+                                                                                    <input list="gen">
+            <datalist id="gen">
+                <option>Male</option>
+                <option>Female</option>
+                <option>Others</option>
+            </datalist><br><br>
+                                                                                    <label for="date">DOB</label>
+                                                                                    <input type="date" id="date"><br><br>
+                                                                                    <label for="pass">Password</label>
+                                                                                    <input type="password" id="pass" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"><br><br>
+                                                                                    <label for="">State</label>
+                                                                                    <input list="state">
+                <datalist id="state">
+                    <option >Andhra Pradesh</option>
+                    <option >Kerala</option>
+                    <option >Karnataka</option>
+                    <option >Maharashtra</option>
+                    <option >Tamil Nadu</option>
+                    <option >Telangana</option>
+                </datalist>
+                                                                                    <label for="">Pincode</label>
+                                                                                    <input type="text" pattern="[0-9]{6}"><br><br>
+                                                                                    <label for="">Address</label>
+                                                                                    <input type="text" required  ><br><br>
+                                                                                           <input type="submit" onclick="" value="Submit" ><br>
+            <p>                                                                                Already have an account ? &nbsp;<a href="login.html">Sign In</a></p>
+            
+
+        </fieldset>
+    </pre>
+    </form>
+    
+</body>
+</html>
